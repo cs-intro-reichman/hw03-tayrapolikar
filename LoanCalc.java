@@ -1,6 +1,3 @@
-/*
-  Computes the periodical payment necessary to re-pay a given loan.
-        */
 public class LoanCalc {
 
 	static double epsilon = 0.001;  // The computation tolerance (estimation error)
