@@ -1,5 +1,5 @@
 
-public class Calender {
+public class Calendar {
 	static int dayOfMonth = 1;
 	static int month = 1;
 	static int dayOfWeek = 2;     // 1.1.1900 was a Monday (2nd day as sunday,monday)
