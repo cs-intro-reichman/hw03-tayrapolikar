@@ -10,8 +10,8 @@ public class Calendar1 {
 	static int nDaysInMonth = 31; // Number of days in January
 	
 
-	 * Prints the calendars of all the years in the 20th century. Also prints the  
-	 * number of Sundays that occured on the first day of the month during this period.
+	 // Prints the calendars of all the years in the 20th century. Also prints the
+	 // number of Sundays that occured on the first day of the month during this period.
 
 	public static void main(String args[]) {
 		 /*
