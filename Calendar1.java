@@ -28,7 +28,7 @@ public class Calendar1 {
 
 			if (debugDaysCounter==36524) {
 				System.out.println();
-				System.out.println("During the 20th centuary, "+ firstSundayCounter+" Sundays fell on the first day of the month.");
+				System.out.println("During the 20th century, "+ firstSundayCounter+" Sundays fell on the first day of the month");
 				break;
 			}
 		}
