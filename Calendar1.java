@@ -1,14 +1,14 @@
 
 public class Calendar1 {
+	// Starting the calendar on 1/1/1900
 	static int dayOfMonth = 1;
 	static int month = 1;
+	static int year = 1900;
 	static int dayOfWeek = 2;     // 1.1.1900 was a Monday (2nd day as sunday,monday)
 	static int nDaysInMonth = 31; // Number of days in January
-	static int year=1900;
-
 
 	public static void main(String args[]) {
-		int newYear = Integer.parseInt(args[0]);
+
 		int debugDaysCounter = 0;
 		String isSunday="";
 		int firstSundayCounter=0;
@@ -19,15 +19,16 @@ public class Calendar1 {
 			if(dayOfWeek==1){
 				isSunday = " Sunday";
 				if(dayOfMonth==1){
+					firstSundayCounter++;
 				}
 			}
-			if(year==newYear) {
-				System.out.println(dayOfMonth + "/" + month + "/" + year + isSunday);
-			}
+			System.out.println(dayOfMonth+ "/"+month+"/"+year+isSunday);
 			advance();
 			debugDaysCounter++;
 
-			if (year>newYear) {
+			if (debugDaysCounter==36524) {
+				System.out.println();
+				System.out.println("During the 20th centuary, "+ firstSundayCounter+" Sundays fell on the first day of the month");
 				break;
 			}
 		}
@@ -68,3 +69,4 @@ public class Calendar1 {
 		return 0;
 	}
 }
+
