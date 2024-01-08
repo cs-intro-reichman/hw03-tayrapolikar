@@ -1,4 +1,4 @@
-public class LoanCalc {
+public class  LoanCalc {
 	static double  epsilon = 0.001;
 	static int iterationCounter=0;
 
