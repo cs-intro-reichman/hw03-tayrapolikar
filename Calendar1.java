@@ -55,7 +55,11 @@ public class Calendar1 {
 		}
 		return false;
 	}
-
+	
+	/*
+	#feedback
+	I'd recommend to use switch case when you have to check multiple conditions
+	*/
 	public static int nDaysInMonth(int month, int year) {
 		if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
 			return 31;
